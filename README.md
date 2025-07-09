@@ -1,9 +1,32 @@
 # Flask Docker Hello
 
-Prosty serwis webowy napisany w Pythonie przy użyciu Flask, uruchamiany w kontenerze Docker.
+Prosty projekt Flask uruchomiony w Dockerze.
 
-## Uruchomienie
+## Uruchomienie aplikacji lokalnie
+
+### 1. Budowanie i uruchomienie kontenera za pomocą Docker Compose
 
 ```bash
-docker build -t flask-hello-dawid .
-docker run -p 5000:5000 flask-hello-dawid
+
+docker-compose up 
+
+```
+2. Zatrzymanie kontenerów
+ bash  
+Kopiuj
+Edytuj
+docker-compose down
+Struktura projektu
+app.py — aplikacja Flask
+
+Dockerfile — instrukcje do budowy obrazu Dockera
+
+docker-compose.yml — konfiguracja uruchamiania kontenerów
+
+requirements.txt — zależności Pythona
+
+Wymagania
+Docker
+
+Docker Compose
+
