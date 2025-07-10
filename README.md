@@ -49,4 +49,4 @@ Hello from Flask in Docker!
 ```
 
 👨‍💻 Autor
-Dawid Karpiak
+Dawid Karpczak
